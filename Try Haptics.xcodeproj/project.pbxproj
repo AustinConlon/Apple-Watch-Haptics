@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBD5679A243EB03B0068451B /* Try Haptics WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FBD56799243EB03B0068451B /* Try Haptics WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBD567A0243EB03B0068451B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD5679E243EB03B0068451B /* Interface.storyboard */; };
+		FBD567A2243EB03E0068451B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD567A1243EB03E0068451B /* Assets.xcassets */; };
+		FBD567A9243EB03F0068451B /* Try Haptics WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FBD567A8243EB03F0068451B /* Try Haptics WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBD567AE243EB03F0068451B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD567AD243EB03F0068451B /* ContentView.swift */; };
+		FBD567B0243EB03F0068451B /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD567AF243EB03F0068451B /* HostingController.swift */; };
+		FBD567B2243EB03F0068451B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD567B1243EB03F0068451B /* ExtensionDelegate.swift */; };
+		FBD567B4243EB0400068451B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD567B3243EB0400068451B /* Assets.xcassets */; };
+		FBD567B7243EB0400068451B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD567B6243EB0400068451B /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBD5679B243EB03B0068451B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBD5678F243EB03A0068451B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD56798243EB03B0068451B;
+			remoteInfo = "Try Haptics WatchKit App";
+		};
+		FBD567AA243EB03F0068451B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBD5678F243EB03A0068451B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD567A7243EB03F0068451B;
+			remoteInfo = "Try Haptics WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBD567BE243EB0400068451B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FBD567A9243EB03F0068451B /* Try Haptics WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD567C2243EB0400068451B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FBD5679A243EB03B0068451B /* Try Haptics WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBD56795243EB03A0068451B /* Try Haptics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Try Haptics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD56799243EB03B0068451B /* Try Haptics WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Try Haptics WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD5679F243EB03B0068451B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FBD567A1243EB03E0068451B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBD567A3243EB03E0068451B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD567A8243EB03F0068451B /* Try Haptics WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Try Haptics WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD567AD243EB03F0068451B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBD567AF243EB03F0068451B /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		FBD567B1243EB03F0068451B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FBD567B3243EB0400068451B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBD567B6243EB0400068451B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBD567B8243EB0400068451B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD567A5243EB03F0068451B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD5678E243EB03A0068451B = {
+			isa = PBXGroup;
+			children = (
+				FBD5679D243EB03B0068451B /* Try Haptics WatchKit App */,
+				FBD567AC243EB03F0068451B /* Try Haptics WatchKit Extension */,
+				FBD56796243EB03A0068451B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD56796243EB03A0068451B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD56795243EB03A0068451B /* Try Haptics.app */,
+				FBD56799243EB03B0068451B /* Try Haptics WatchKit App.app */,
+				FBD567A8243EB03F0068451B /* Try Haptics WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD5679D243EB03B0068451B /* Try Haptics WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5679E243EB03B0068451B /* Interface.storyboard */,
+				FBD567A1243EB03E0068451B /* Assets.xcassets */,
+				FBD567A3243EB03E0068451B /* Info.plist */,
+			);
+			path = "Try Haptics WatchKit App";
+			sourceTree = "<group>";
+		};
+		FBD567AC243EB03F0068451B /* Try Haptics WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FBD567AD243EB03F0068451B /* ContentView.swift */,
+				FBD567AF243EB03F0068451B /* HostingController.swift */,
+				FBD567B1243EB03F0068451B /* ExtensionDelegate.swift */,
+				FBD567B3243EB0400068451B /* Assets.xcassets */,
+				FBD567B8243EB0400068451B /* Info.plist */,
+				FBD567B5243EB0400068451B /* Preview Content */,
+			);
+			path = "Try Haptics WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FBD567B5243EB0400068451B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBD567B6243EB0400068451B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD56794243EB03A0068451B /* Try Haptics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD567C3243EB0400068451B /* Build configuration list for PBXNativeTarget "Try Haptics" */;
+			buildPhases = (
+				FBD56793243EB03A0068451B /* Resources */,
+				FBD567C2243EB0400068451B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD5679C243EB03B0068451B /* PBXTargetDependency */,
+			);
+			name = "Try Haptics";
+			productName = "Try Haptics";
+			productReference = FBD56795243EB03A0068451B /* Try Haptics.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FBD56798243EB03B0068451B /* Try Haptics WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD567BF243EB0400068451B /* Build configuration list for PBXNativeTarget "Try Haptics WatchKit App" */;
+			buildPhases = (
+				FBD56797243EB03B0068451B /* Resources */,
+				FBD567BE243EB0400068451B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD567AB243EB03F0068451B /* PBXTargetDependency */,
+			);
+			name = "Try Haptics WatchKit App";
+			productName = "Try Haptics WatchKit App";
+			productReference = FBD56799243EB03B0068451B /* Try Haptics WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FBD567A7243EB03F0068451B /* Try Haptics WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD567BB243EB0400068451B /* Build configuration list for PBXNativeTarget "Try Haptics WatchKit Extension" */;
+			buildPhases = (
+				FBD567A4243EB03F0068451B /* Sources */,
+				FBD567A5243EB03F0068451B /* Frameworks */,
+				FBD567A6243EB03F0068451B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Try Haptics WatchKit Extension";
+			productName = "Try Haptics WatchKit Extension";
+			productReference = FBD567A8243EB03F0068451B /* Try Haptics WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD5678F243EB03A0068451B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Austin Conlon";
+				TargetAttributes = {
+					FBD56794243EB03A0068451B = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					FBD56798243EB03B0068451B = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					FBD567A7243EB03F0068451B = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = FBD56792243EB03A0068451B /* Build configuration list for PBXProject "Try Haptics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBD5678E243EB03A0068451B;
+			productRefGroup = FBD56796243EB03A0068451B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD56794243EB03A0068451B /* Try Haptics */,
+				FBD56798243EB03B0068451B /* Try Haptics WatchKit App */,
+				FBD567A7243EB03F0068451B /* Try Haptics WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD56793243EB03A0068451B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD56797243EB03B0068451B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD567A2243EB03E0068451B /* Assets.xcassets in Resources */,
+				FBD567A0243EB03B0068451B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD567A6243EB03F0068451B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD567B7243EB0400068451B /* Preview Assets.xcassets in Resources */,
+				FBD567B4243EB0400068451B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD567A4243EB03F0068451B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD567B0243EB03F0068451B /* HostingController.swift in Sources */,
+				FBD567AE243EB03F0068451B /* ContentView.swift in Sources */,
+				FBD567B2243EB03F0068451B /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBD5679C243EB03B0068451B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBD56798243EB03B0068451B /* Try Haptics WatchKit App */;
+			targetProxy = FBD5679B243EB03B0068451B /* PBXContainerItemProxy */;
+		};
+		FBD567AB243EB03F0068451B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBD567A7243EB03F0068451B /* Try Haptics WatchKit Extension */;
+			targetProxy = FBD567AA243EB03F0068451B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBD5679E243EB03B0068451B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD5679F243EB03B0068451B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBD567B9243EB0400068451B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBD567BA243EB0400068451B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD567BC243EB0400068451B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Try Haptics WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Try Haptics WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.Try-Haptics.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		FBD567BD243EB0400068451B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Try Haptics WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Try Haptics WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.Try-Haptics.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		FBD567C0243EB0400068451B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				IBSC_MODULE = Try_Haptics_WatchKit_Extension;
+				INFOPLIST_FILE = "Try Haptics WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.Try-Haptics.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		FBD567C1243EB0400068451B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				IBSC_MODULE = Try_Haptics_WatchKit_Extension;
+				INFOPLIST_FILE = "Try Haptics WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.Try-Haptics.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		FBD567C4243EB0400068451B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.Try-Haptics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBD567C5243EB0400068451B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV84QJNZ49;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Conlon.Try-Haptics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD56792243EB03A0068451B /* Build configuration list for PBXProject "Try Haptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD567B9243EB0400068451B /* Debug */,
+				FBD567BA243EB0400068451B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD567BB243EB0400068451B /* Build configuration list for PBXNativeTarget "Try Haptics WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD567BC243EB0400068451B /* Debug */,
+				FBD567BD243EB0400068451B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD567BF243EB0400068451B /* Build configuration list for PBXNativeTarget "Try Haptics WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD567C0243EB0400068451B /* Debug */,
+				FBD567C1243EB0400068451B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD567C3243EB0400068451B /* Build configuration list for PBXNativeTarget "Try Haptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD567C4243EB0400068451B /* Debug */,
+				FBD567C5243EB0400068451B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD5678F243EB03A0068451B /* Project object */;
+}
